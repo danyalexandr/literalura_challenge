@@ -21,7 +21,7 @@ public class LiteraluraChallengeApplication implements CommandLineRunner{
     public void run(String... args) throws Exception {
         
         var menuPrincipal = new MenuPrincipal(repository);
-        menuPrincipal.buscarLibro();
+        menuPrincipal.mostrarMenu();
         
         
     }
